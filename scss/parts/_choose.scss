@@ -1,0 +1,77 @@
+.header {
+    padding: 25px 0;
+    background-color: #5474fd;
+    color: white;
+    
+    .grid {
+display: flex;
+justify-content: space-between;
+align-items: center;
+    }
+
+    &__logo {
+        font-family: $font-sans;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__nav {
+
+    }
+
+    &__menu {
+        display: flex;
+        list-style: none;
+        
+        &-item a {
+            font-family: $font-aleo;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: normal;
+            color: white;
+            text-decoration: none;
+            padding-left: 42px;
+        }
+    }
+}
+
+.choose {
+    background: url(../img/bg2.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+    padding-bottom: 130px;
+
+    &__content {
+        display: flex;
+        margin-top: 200px;
+
+        h2 {
+            margin-bottom: 55px;
+        }
+         p {
+            padding-bottom: 40px;
+        }
+    }
+
+    &__img {
+        position: relative;
+        img {
+            position: absolute;
+        }
+            img:nth-child(1) {
+                top: -120px;
+                right: 120px;
+            }
+            img:nth-child(2) {
+                top: 103px;
+                right: 0px;
+            }
+    
+        
+    }
+    
+    
+     
+
+}

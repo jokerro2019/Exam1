@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.grid-1-2 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.btn {
+    
+        font-family: $font-aleo;
+        font-size: 16px;
+        font-weight: normal;
+        display: block;
+        width: 225px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 20px 0px;
+        background-color: #5474fd;
+    
+}
+
+.map {
+    background-color: #333333;
+    padding-top: 96px;
+    padding-bottom: 112px;
+
+    &__item {
+        text-align: center;
+        h2 {
+            margin-top: 25px;
+        }
+    }
+    .grid {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .item-1 {
+    position: absolute;
+    top: -53px;
+    left: 181px;;
+    }
+    .item-2 {
+        position: absolute; 
+        top: -53px;
+        right:  206px;
+    }
+}
+
+.fa-quote-left {
+    font-size: 20px;
+    color: #5474fd;
+}

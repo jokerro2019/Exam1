@@ -1,0 +1,7 @@
+@mixin large-title($color) {
+      font-family: $font-raleway;
+      font-size: 90px;
+      font-weight: bold;
+      line-height: 1.588;
+      color: $color;
+  }

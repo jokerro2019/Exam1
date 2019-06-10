@@ -1,0 +1,93 @@
+.hero {
+    background: url(../img/bg-top.jpg) center top / cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    padding-top: 270px;
+    font-family: $font-sans;
+    color: white;
+    // line-height: 26px;
+    
+
+    &__title {
+        
+        text-transform: uppercase;
+        font-size: 48px;
+        
+        font-weight: bold;
+        
+        letter-spacing: 10px;
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-size: 22px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        letter-spacing: 10px;
+    }
+}
+
+.search {
+    
+    width: 650px;
+    height: 62px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2px;
+    margin-bottom: 115px;
+
+    &__input {
+        font-family: $font-sans;
+        font-size: 14px;
+        letter-spacing: 5px;
+        width: 500px;
+        border: none;
+        outline: none;
+        text-align: center;
+        
+    }
+
+
+    &__item {
+        background-color: #5474fd;
+        width: 148px;
+        display: flex;
+        align-items: center;
+        padding-right: 15px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__item:focus {
+        background-color: blue;
+    }
+}
+
+.item-1 {
+    font-family: $font-aleo;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.scroll {
+    position: absolute;
+    left: 47%;
+    bottom: 130px;
+
+}
+
+.scroll h4 {
+    font-family: $font-sans;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 2px;
+}
+    

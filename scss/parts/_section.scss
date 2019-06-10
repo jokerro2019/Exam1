@@ -1,0 +1,102 @@
+.section-1 {
+    background: url(../img/bg3.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+    padding-top: 230px;
+    padding-bottom: 100px;
+
+    .article {
+        // font-family: $font-sans;
+        background-color: rgb(35, 35, 35);
+            opacity: 0.902;
+            padding: 50px 40px;
+            color: white;
+
+            &__title {
+                margin-bottom: 25px;
+                font-size: 20px;
+                font-weight: normal;
+            }
+
+            &__title:nth-child(2) {
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+
+            &__description {
+                font-size: 16px;
+                line-height: 26px;
+                  margin-bottom: 46px;
+            }
+          
+    }
+}
+
+.section-2 {
+    background: url(../img/bg4.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+    padding-top: 230px;
+    padding-bottom: 100px;
+        .grid {
+            display: flex;
+            justify-content: flex-end;
+        }
+    
+
+    .article {
+        font-family: $font-sans;
+        background-color: rgb(35, 35, 35);
+            opacity: 0.902;
+            padding: 50px 40px;
+            color: white;
+
+            &__title {
+                margin-bottom: 25px;
+                font-size: 20px;
+                font-weight: normal;
+            }
+            &__title:nth-child(2) {
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+
+            &__description {
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 46px;
+            }
+          
+
+    }
+}
+
+.section-3 {
+    background: url(../img/bg5.jpg) no-repeat top center / cover;
+    // background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 200px;
+
+    .article {
+        
+
+        h2 {
+            margin-bottom: 94px;
+            text-align: center;
+        }
+
+        &__content {
+            display: flex;
+        }
+
+        &__description {
+            padding: 50px;
+            background-color: rgb(51, 51, 51);
+
+            span {
+                font-family: $font-sans;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+              
+        }
+    }
+}
